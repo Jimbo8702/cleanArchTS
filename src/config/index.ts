@@ -12,6 +12,7 @@ export default {
   databaseURL: process.env.MONGODB_URI,
   jwtSecret: process.env.JWT_SECRET,
   jwtAlgorithm: process.env.JWT_ALGO,
+
   logs: {
     level: process.env.LOG_LEVEL || 'silly',
   },
